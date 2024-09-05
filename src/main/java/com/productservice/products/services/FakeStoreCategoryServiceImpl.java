@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Getter
 @Setter
 
-public class FakeStoreCategoryServiceImpl implements CategoryService{
+public class  FakeStoreCategoryServiceImpl implements CategoryService{
 
     private RestTemplateBuilder restTemplateBuilder;
 
